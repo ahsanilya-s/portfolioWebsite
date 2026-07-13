@@ -3,8 +3,56 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ahsan Ilyas — Software Engineer · Full-Stack & Data Systems for Humanitarian Programs</title>
-<meta name="description" content="Software engineer building production data systems for humanitarian programs — offline-first field monitoring, multi-hazard assessment platforms, and M&E data integrations. Available for remote contracts with NGOs and development organizations.">
+<title>Ahsan Ilyas — Custom Software for NGOs & Humanitarian Organizations · Dashboards, Field Apps, ActivityInfo</title>
+<meta name="description" content="Custom operational software for NGOs, nonprofits and humanitarian organizations — offline field data collection, MEAL dashboards, ActivityInfo integrations, and approval workflows. Built by a software engineer working inside an international NGO, so it fits how your teams actually work.">
+<meta name="keywords" content="NGO software developer, humanitarian software, NGO dashboard development, ActivityInfo developer, MEAL software, NGO digital solutions, nonprofit software consultant, offline data collection app, third-party monitoring software, disaster risk reduction software">
+<meta name="author" content="Ahsan Ilyas">
+<link rel="canonical" href="https://ahsanilya-s.github.io/portfolioWebsite/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ahsanilya-s.github.io/portfolioWebsite/">
+<meta property="og:title" content="Ahsan Ilyas — Custom Software for NGOs & Humanitarian Organizations">
+<meta property="og:description" content="Offline field apps, MEAL dashboards, and ActivityInfo integrations — designed by an engineer who works inside an international NGO and understands donor reporting, procurement, and field operations first-hand.">
+<meta property="og:image" content="https://ahsanilya-s.github.io/portfolioWebsite/assets/sha-1.webp">
+<meta property="og:site_name" content="Ahsan Ilyas — NGO Software">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ahsan Ilyas — Custom Software for NGOs & Humanitarian Organizations">
+<meta name="twitter:description" content="Offline field apps, MEAL dashboards, and ActivityInfo integrations — built by an engineer working inside an international NGO.">
+<meta name="twitter:image" content="https://ahsanilya-s.github.io/portfolioWebsite/assets/sha-1.webp">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://ahsanilya-s.github.io/portfolioWebsite/#person",
+      "name": "Ahsan Ilyas",
+      "jobTitle": "Software Engineer — NGO Operational Systems",
+      "description": "Software engineer working inside an international NGO, building operational software for NGOs, nonprofits and humanitarian organizations: offline field data collection, MEAL dashboards, ActivityInfo integrations and approval workflows.",
+      "email": "mailto:ahsanilyas.sheikh@gmail.com",
+      "telephone": "+92-330-5044484",
+      "url": "https://ahsanilya-s.github.io/portfolioWebsite/",
+      "address": { "@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK" },
+      "worksFor": { "@type": "NGO", "name": "KnK Japan — Pakistan Mission" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Air University, Islamabad" },
+      "knowsAbout": ["NGO operations", "MEAL", "ActivityInfo", "Third-party monitoring", "Disaster risk reduction", "Offline-first field applications", "Donor reporting", "Humanitarian data systems", "Java", "Spring Boot", "React", "PostgreSQL"],
+      "sameAs": [
+        "https://github.com/ahsanilya-s",
+        "https://www.linkedin.com/in/sheikhahsanilyas"
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://ahsanilya-s.github.io/portfolioWebsite/#service",
+      "name": "Ahsan Ilyas — Custom Software for NGOs",
+      "description": "Custom operational software for NGOs and humanitarian organizations: offline field data collection apps, MEAL and operations dashboards, ActivityInfo integrations, approval workflows and reporting automation.",
+      "url": "https://ahsanilya-s.github.io/portfolioWebsite/",
+      "founder": { "@id": "https://ahsanilya-s.github.io/portfolioWebsite/#person" },
+      "areaServed": "Worldwide (remote)",
+      "serviceType": ["NGO software development", "Humanitarian software", "NGO dashboard development", "ActivityInfo integration", "MEAL data systems"]
+    }
+  ]
+}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -258,6 +306,30 @@ h1{font-family:var(--font-display);font-size:clamp(38px,6vw,64px);font-weight:70
 .edu h3{font-family:var(--font-display);font-size:17px;font-weight:600}
 .edu p{color:var(--muted);font-size:14px}
 
+/* case-study blocks */
+.cs{margin-bottom:16px}
+.cs-label{font-family:var(--font-mono);font-size:11.5px;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:4px}
+.cs-label.dim{color:var(--muted-2)}
+.cs p{color:var(--muted);font-size:15px;margin:0}
+.cs p strong{color:var(--fg);font-weight:600}
+
+/* sectors */
+.sector-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.sector{padding:22px 24px;display:flex;gap:15px;align-items:flex-start;transition:border-color .25s,transform .25s var(--ease)}
+.sector:hover{border-color:rgba(45,212,191,.35);transform:translateY(-4px)}
+.sector .ic{width:42px;height:42px;border-radius:12px;background:rgba(56,189,248,.1);border:1px solid rgba(56,189,248,.25);display:grid;place-items:center;flex-shrink:0}
+.sector .ic svg{width:20px;height:20px;color:var(--accent-2)}
+.sector h3{font-family:var(--font-display);font-size:16px;font-weight:600;margin-bottom:3px}
+.sector p{color:var(--muted);font-size:13.5px;margin:0}
+
+/* testimonials */
+.quote-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.quote{padding:26px 28px;display:flex;flex-direction:column;gap:14px;transition:border-color .25s,transform .25s var(--ease)}
+.quote:hover{border-color:rgba(45,212,191,.35);transform:translateY(-4px)}
+.quote .mark{font-family:var(--font-display);font-size:34px;line-height:1;color:var(--accent);opacity:.7}
+.quote p{color:var(--muted);font-size:15px;margin:0}
+.quote .who{font-size:13px;color:var(--muted-2);font-family:var(--font-mono)}
+
 /* contact */
 .contact-wrap{text-align:center;padding:clamp(40px,6vw,72px) clamp(24px,5vw,64px);position:relative;overflow:hidden}
 .contact-wrap::before{content:"";position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:480px;height:260px;background:radial-gradient(ellipse,rgba(45,212,191,.16),transparent 70%);pointer-events:none}
@@ -428,11 +500,11 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
   </a>
   <ul class="nav-links" id="navLinks">
     <li><a href="#about">About</a></li>
+    <li><a href="#sectors">Sectors</a></li>
+    <li><a href="#projects">Case Studies</a></li>
+    <li><a href="#process">How I Work</a></li>
     <li><a href="#experience">Experience</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#certs">Certifications</a></li>
-    <li><a class="nav-cta" href="#contact">Hire Me</a></li>
+    <li><a class="nav-cta" href="#contact">Start a Conversation</a></li>
   </ul>
   <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg>
@@ -445,26 +517,26 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
   <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
   <div class="container hero-grid">
     <div>
-      <span class="badge"><span class="dot" aria-hidden="true"></span>Available for remote NGO &amp; development-sector contracts</span>
-      <h1>Building data systems<br>for <span class="grad-text">humanitarian impact</span></h1>
-      <p class="hero-role">Ahsan Ilyas <span>· Software Engineer — Full-Stack &amp; Data Systems</span></p>
-      <p class="hero-focus"><span class="lead">$ focus →</span> <span class="rotator" id="rotator" data-words="offline-first field tools|multi-hazard screening|M&amp;E data pipelines|humanitarian platforms">offline-first field tools</span></p>
-      <p class="hero-desc">Sole engineer for <strong>KnK Japan's Pakistan mission</strong> — designing, building, and shipping production platforms end-to-end: an offline-first field-monitoring app supporting <strong>UN-Habitat third-party monitoring</strong> and a live multi-hazard assessment toolkit for <strong>PEC-accredited engineers</strong>.</p>
+      <span class="badge"><span class="dot" aria-hidden="true"></span>Working inside an international NGO · Available for your organization</span>
+      <h1>Software designed around<br>how <span class="grad-text">NGOs actually work</span></h1>
+      <p class="hero-role">Ahsan Ilyas <span>· Software Engineer — NGO Operational Systems</span></p>
+      <p class="hero-focus"><span class="lead">$ replaces →</span> <span class="rotator" id="rotator" data-words="manual donor reporting|spreadsheet trackers|paper field forms|approval bottlenecks|report-chasing emails">manual donor reporting</span></p>
+      <p class="hero-desc">If your teams spend evenings compiling reports, chasing approvals over email, or re-typing field data from paper into spreadsheets — that work can be designed away. I build <strong>field data collection that works offline</strong>, <strong>dashboards that give managers real visibility</strong>, and <strong>reporting that flows into ActivityInfo</strong> without copy-paste. I do this every day inside <strong>KnK Japan's Pakistan mission</strong>, including systems supporting <strong>UN-Habitat third-party monitoring</strong>.</p>
       <div class="hero-ctas">
         <a class="btn btn-primary" href="#projects">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
-          View Projects
+          See Case Studies
         </a>
         <a class="btn btn-ghost" href="#contact">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          Get in Touch
+          Book a Discovery Conversation
         </a>
       </div>
       <div class="hero-stats" role="list">
-        <div class="stat" role="listitem"><div class="num"><em data-count="2">2</em></div><div class="lbl">Production platforms live</div></div>
-        <div class="stat" role="listitem"><div class="num"><em data-count="6">6</em>+</div><div class="lbl">Hazard modules shipped</div></div>
-        <div class="stat" role="listitem"><div class="num"><em data-count="2">2</em></div><div class="lbl">Languages in product UI</div></div>
-        <div class="stat" role="listitem"><div class="num"><em data-count="100" data-suffix="%">100%</em></div><div class="lbl">Owned end-to-end</div></div>
+        <div class="stat" role="listitem"><div class="num"><em data-count="2">2</em></div><div class="lbl">Systems in daily field use</div></div>
+        <div class="stat" role="listitem"><div class="num"><em data-count="6">6</em>+</div><div class="lbl">Hazard assessments digitised</div></div>
+        <div class="stat" role="listitem"><div class="num"><em data-count="2">2</em></div><div class="lbl">Languages in the field UI</div></div>
+        <div class="stat" role="listitem"><div class="num"><em data-count="100" data-suffix="%">100%</em></div><div class="lbl">Delivered end-to-end</div></div>
       </div>
     </div>
     <div class="terminal" aria-label="Terminal-style profile card">
@@ -472,12 +544,12 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
       <div class="term-body">
         <span class="ln"><span class="prompt">$</span> whoami</span>
         <span class="ln"><span class="t-key">name</span><span class="t-dim">:</span> <span class="t-val">Ahsan Ilyas</span></span>
-        <span class="ln"><span class="t-key">role</span><span class="t-dim">:</span> <span class="t-val">Software Engineer · Sole engineer, KnK Japan (PK)</span></span>
-        <span class="ln"><span class="t-key">stack</span><span class="t-dim">:</span> <span class="t-str">["Java","Spring Boot","React","PostgreSQL","Python"]</span></span>
-        <span class="ln"><span class="t-key">focus</span><span class="t-dim">:</span> <span class="t-str">"offline-first M&amp;E · multi-hazard tooling · ActivityInfo"</span></span>
-        <span class="ln"><span class="t-key">base</span><span class="t-dim">:</span> <span class="t-val">Islamabad, Pakistan · remote-ready</span></span>
+        <span class="ln"><span class="t-key">role</span><span class="t-dim">:</span> <span class="t-val">Engineer inside an international NGO (KnK Japan, PK)</span></span>
+        <span class="ln"><span class="t-key">knows</span><span class="t-dim">:</span> <span class="t-str">["MEAL","donor reporting","procurement","field ops"]</span></span>
+        <span class="ln"><span class="t-key">builds</span><span class="t-dim">:</span> <span class="t-str">"field apps · dashboards · ActivityInfo integrations"</span></span>
+        <span class="ln"><span class="t-key">base</span><span class="t-dim">:</span> <span class="t-val">Islamabad, Pakistan · works with NGOs worldwide</span></span>
         <span class="ln"><span class="prompt">$</span> status --live</span>
-        <span class="ln"><span class="t-str">→ shatools.vercel.app</span> <span class="t-dim">· UN-Habitat TPM field app</span></span>
+        <span class="ln"><span class="t-str">→ shatools.vercel.app</span> <span class="t-dim">· school safety assessment platform</span></span>
         <span class="ln"><span class="prompt">$</span> <span class="cursor" aria-hidden="true"></span></span>
       </div>
     </div>
@@ -487,7 +559,7 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
 <!-- ORGS -->
 <div class="orgs container reveal">
   <div class="orgs-inner">
-    <span class="orgs-label">Built for &amp; with</span>
+    <span class="orgs-label">Working inside &amp; alongside</span>
     <span class="org"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2l9 4.9V17L12 22l-9-4.9V7z"/></svg>KnK Japan</span>
     <span class="org"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/></svg>UN-Habitat TPM</span>
     <span class="org"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 20h20M4 20V8l8-6 8 6v12M9 20v-6h6v6"/></svg>Pakistan Engineering Council</span>
@@ -501,60 +573,65 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
     <div class="about-grid">
       <div class="about-text reveal">
         <span class="section-tag">About</span>
-        <h2>One engineer, <span class="grad-text">end-to-end ownership</span></h2>
-        <p>I'm a software engineer serving as the <strong>sole engineer for KnK Japan's Pakistan mission</strong>, where I own the architecture, development, deployment, and maintenance of every digital system the mission runs.</p>
-        <p>My work sits at the intersection of <strong>full-stack engineering and humanitarian data</strong>: offline-first tools for field monitors working without connectivity, screening platforms used by PEC-accredited engineers, and M&amp;E pipelines that sync with <strong>ActivityInfo</strong> and keep reporting accurate and fast.</p>
-        <p>B.S. Software Engineering, Air University (2026). Based in Islamabad — <strong>available for remote contracts</strong> with NGOs and development organizations worldwide.</p>
+        <h2>I understand NGO operations <span class="grad-text">from the inside</span></h2>
+        <p>I'm the engineer inside <strong>KnK Japan's Pakistan mission</strong>. I don't visit NGOs to gather requirements — I sit in the same office as the programme, MEAL, procurement, and finance teams whose work my systems have to fit.</p>
+        <p>That means I already know the things a generic development agency has to be taught: how <strong>donor reporting cycles</strong> drive deadlines, how <strong>MEAL indicators</strong> map to <strong>ActivityInfo</strong>, why a procurement request crosses four desks before approval, what finance needs attached to every transaction, and what a field monitor can realistically do with a mid-range phone and no signal. When we talk about your grievance mechanism or your third-party monitoring protocol, you won't need to explain the acronyms.</p>
+        <p>The engineering credentials are here too — B.S. Software Engineering (Air University, 2026), production systems serving UN-Habitat monitoring — but the difference clients notice is simpler: <strong>no translation layer between your operations and the person writing the code</strong>. Based in Islamabad, working remotely with organizations worldwide.</p>
       </div>
       <div class="about-cards reveal">
         <div class="about-card glass">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></span>
-          <div><h3>Offline-first by design</h3><p>Field tools that work with zero connectivity — form packs, local drafts, and conflict-safe sync when networks return.</p></div>
+          <div><h3>Designed for the field, not the office</h3><p>Tools that work with zero connectivity, on the phones your teams already carry, in the languages they actually speak.</p></div>
         </div>
         <div class="about-card glass">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 5v14c0 1.7-4 3-9 3s-9-1.3-9-3V5"/><path d="M3 12c0 1.7 4 3 9 3s9-1.3 9-3"/></svg></span>
-          <div><h3>Data you can trust</h3><p>Relational schema design, query optimization, and automated M&amp;E workflows that improve data integrity and reporting speed.</p></div>
+          <div><h3>Fluent in MEAL &amp; donor workflows</h3><p>Indicators, ActivityInfo, GRM/FCRM, verification chains — I build around your reporting obligations, not against them.</p></div>
         </div>
         <div class="about-card glass">
           <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span>
-          <div><h3>Ship fast, maintain long</h3><p>From requirement to production on real deadlines — then documented, monitored, and maintained as the only engineer on call.</p></div>
+          <div><h3>One accountable person</h3><p>From first conversation to long-term support — no handovers between a salesperson, a developer, and a help desk.</p></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- EXPERIENCE -->
-<section id="experience">
+<!-- SECTORS -->
+<section id="sectors">
   <div class="container">
     <div class="reveal">
-      <span class="section-tag">Experience</span>
-      <h2>Where I've worked</h2>
-      <p class="section-sub">Production systems for humanitarian programs, plus agile full-stack delivery in distributed teams.</p>
+      <span class="section-tag">Sectors</span>
+      <h2>Organizations I understand</h2>
+      <p class="section-sub">Most software fails in this sector because the person building it has never sat through a donor audit, a procurement committee, or a field verification visit. I have.</p>
     </div>
-    <div class="timeline">
-      <div class="t-item reveal">
-        <div class="t-head">
-          <div><span class="t-role">Database &amp; AI Intern — Sole Engineer</span><br><span class="t-org">KnK Japan · Pakistan Mission (NGO, full-time)</span></div>
-          <span class="t-date">Jun 2026 — Present</span>
-        </div>
-        <div class="t-body">
-          Only engineer for the country mission's digital systems — owning architecture, development, deployment, and maintenance end-to-end.
-          <ul>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Built and shipped the <strong>CD-CRI SHA Toolkit</strong> — a seismic &amp; multi-hazard Rapid Visual Screening platform, live at shatools.vercel.app.</span></li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Built an <strong>offline-first mobile field app</strong> for UN-Habitat third-party monitoring — form packs with sync, return-and-fix workflow, GRM/FCRM module, English–Urdu UI.</span></li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Design and manage <strong>PostgreSQL / MySQL</strong> databases and automate M&amp;E workflows with Python and AI tooling.</span></li>
-          </ul>
-        </div>
+    <div class="sector-grid">
+      <div class="sector glass reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 4.9V17L12 22l-9-4.9V7z"/></svg></span>
+        <div><h3>NGOs</h3><p>National and local organizations running programmes on lean budgets — where one good tool replaces a dozen spreadsheets.</p></div>
       </div>
-      <div class="t-item reveal">
-        <div class="t-head">
-          <div><span class="t-role">Full Stack Developer Intern</span><br><span class="t-org">CognoRise InfoTech · Remote</span></div>
-          <span class="t-date">Jul — Aug 2024</span>
-        </div>
-        <div class="t-body">
-          Delivered full-stack web features in Agile sprints; documented backend workflows and APIs while collaborating in a distributed, Git-based team.
-        </div>
+      <div class="sector glass reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20"/></svg></span>
+        <div><h3>INGOs</h3><p>Country missions balancing headquarters standards with field reality — I work inside one, so I know both sides of that tension.</p></div>
+      </div>
+      <div class="sector glass reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg></span>
+        <div><h3>Humanitarian Organizations</h3><p>Third-party monitoring, grievance mechanisms, and rapid assessments — built for low connectivity and high accountability.</p></div>
+      </div>
+      <div class="sector glass reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5zM6 12v5c0 1 2.7 3 6 3s6-2 6-3v-5"/></svg></span>
+        <div><h3>Education</h3><p>School infrastructure and safety programmes — including a school assessment platform used by accredited engineers today.</p></div>
+      </div>
+      <div class="sector glass reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></span>
+        <div><h3>Disaster Risk Reduction</h3><p>Multi-hazard screening, structural assessments, and preparedness data — turning field observations into decisions.</p></div>
+      </div>
+      <div class="sector glass reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></span>
+        <div><h3>Community Development</h3><p>Programmes where the data lives with communities and field teams — tools have to meet people where they are.</p></div>
+      </div>
+      <div class="sector glass reveal">
+        <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20M4 20V8l8-6 8 6v12M9 20v-6h6v6"/></svg></span>
+        <div><h3>Government Projects</h3><p>Work that touches public-sector stakeholders and accreditation bodies — like the Pakistan Engineering Council workflows I support.</p></div>
       </div>
     </div>
   </div>
@@ -564,9 +641,9 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
 <section id="projects">
   <div class="container">
     <div class="reveal">
-      <span class="section-tag">Projects</span>
-      <h2>Selected work</h2>
-      <p class="section-sub">Real products in production — screenshots from the live systems.</p>
+      <span class="section-tag">Case Studies</span>
+      <h2>From manual process to working system</h2>
+      <p class="section-sub">Each of these started with an operational problem, not a technology choice. Screenshots are from the live systems teams use today.</p>
     </div>
 
     <!-- SHA Toolkit -->
@@ -582,14 +659,26 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
         </div>
       </div>
       <div>
-        <span class="p-tag">Featured · Live in production</span>
-        <h3 class="p-title">CD-CRI SHA Toolkit</h3>
-        <p class="p-desc">A seismic &amp; multi-hazard Rapid Visual Screening platform for PEC-accredited engineers and facility custodians — built solo, from architecture to deployment.</p>
+        <span class="p-tag">Disaster Risk Reduction · Live in production</span>
+        <h3 class="p-title">School Safety Assessments Without the Paper Trail</h3>
+        <p class="p-desc">The CD-CRI SHA Toolkit — a seismic and multi-hazard screening platform used by facility custodians and PEC-accredited engineers.</p>
+        <div class="cs">
+          <span class="cs-label">The challenge</span>
+          <p>A disaster risk reduction programme needed structural safety assessments of school buildings — collected consistently, reviewed by supervisors, and reported to stakeholders on a deadline.</p>
+        </div>
+        <div class="cs">
+          <span class="cs-label">How it worked before</span>
+          <p>Engineers and custodians recorded assessments on <strong>paper forms</strong>, with photos scattered across phones. Every method varied slightly by assessor, and compiling results into a report meant days of manual transcription — with no way to spot a gap until it was too late to fix.</p>
+        </div>
+        <div class="cs">
+          <span class="cs-label">What changed</span>
+        </div>
         <ul class="p-points">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Dual screening workflows</strong> — simple custodian pre-screen plus full technical RVS with seismic geometry and modifiers.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>6 hazard modules</strong> with evidence uploads and recommendation codes.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Supervisor dashboard</strong> with live WBO roll-up and ActivityInfo sync.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>One consistent methodology</strong> — a simple pre-screen for custodians and a full technical screening for engineers, so every building is assessed the same way.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Six hazards in one visit</strong> — evidence photos and recommendations attached to each assessment, not lost in a camera roll.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Supervisors see progress live</strong> — a roll-up dashboard replaces status-check phone calls, and results flow into <strong>ActivityInfo</strong> without re-typing.</span></li>
         </ul>
+        <span class="cs-label dim">Built with</span>
         <div class="chips">
           <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">PostgreSQL</span><span class="chip">ActivityInfo</span><span class="chip">Vercel</span>
         </div>
@@ -612,14 +701,26 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
         </div>
       </div>
       <div>
-        <span class="p-tag">Mobile · Offline-first</span>
-        <h3 class="p-title">UN-Habitat TPM Field App</h3>
-        <p class="p-desc">An offline-first mobile application for third-party monitoring across Pakistan — built for field monitors working in low-connectivity environments.</p>
+        <span class="p-tag">Humanitarian Monitoring · UN-Habitat programme</span>
+        <h3 class="p-title">Third-Party Monitoring That Works Without Signal</h3>
+        <p class="p-desc">An offline-first mobile app for field monitors verifying humanitarian work across Pakistan — in places where connectivity is the exception, not the rule.</p>
+        <div class="cs">
+          <span class="cs-label">The challenge</span>
+          <p>Third-party monitoring teams had to collect verification data, evidence, and community complaints at sites with little or no mobile coverage — and supervisors needed to catch errors before data reached the donor.</p>
+        </div>
+        <div class="cs">
+          <span class="cs-label">How it worked before</span>
+          <p>Monitors filled forms on paper or in disconnected apps, then re-entered everything at the office. When a supervisor found a mistake, the only fix was often <strong>another trip to the site</strong>. Complaints from communities travelled by phone call and memory.</p>
+        </div>
+        <div class="cs">
+          <span class="cs-label">What changed</span>
+        </div>
         <ul class="p-points">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Offline form packs</strong> with local drafts and safe sync when connectivity returns.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Submission → return-and-fix workflow</strong> between monitors and supervisors.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>GRM / FCRM complaints module</strong> and full English–Urdu bilingual UI.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Full days of work with zero signal</strong> — monitors download form packs in the morning, collect offline, and sync safely when a connection returns.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Corrections without site revisits</strong> — supervisors return a submission with comments, and the monitor fixes it from wherever they are.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Complaints captured properly</strong> — a built-in GRM/FCRM module logs community feedback on the spot, in a fully bilingual English–Urdu interface.</span></li>
         </ul>
+        <span class="cs-label dim">Built with</span>
         <div class="chips">
           <span class="chip">Offline-first</span><span class="chip">Mobile</span><span class="chip">Sync engine</span><span class="chip">English–Urdu</span><span class="chip">M&amp;E</span>
         </div>
@@ -645,14 +746,22 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
         </div>
       </div>
       <div>
-        <span class="p-tag">Academic · Adopted by university</span>
-        <h3 class="p-title">JavaSpector</h3>
-        <p class="p-desc">An automated code-quality analysis tool that scans Java codebases for code smells — long methods, complexity, parameter bloat — with configurable detectors and visual reports.</p>
+        <span class="p-tag">Engineering background · Adopted by a university</span>
+        <h3 class="p-title">JavaSpector — Automated Code Review</h3>
+        <p class="p-desc">For technical reviewers: a code-quality analysis tool that scans Java codebases for maintainability problems, with configurable detectors and visual reports.</p>
+        <div class="cs">
+          <span class="cs-label">The challenge</span>
+          <p>Instructors at Air University were reviewing student codebases by hand — slow, inconsistent, and impossible to scale across a full cohort.</p>
+        </div>
+        <div class="cs">
+          <span class="cs-label">What changed</span>
+        </div>
         <ul class="p-points">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Adopted by Air University's</strong> Software Engineering department as a reference tool.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Configurable detectors with thresholds for method length, complexity, and identifiers.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Visual architecture reports and grading for uploaded projects.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Configurable detectors with thresholds for method length, complexity, and identifiers — the same criteria applied to every project.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Visual architecture reports and grading, generated in minutes instead of hours of manual review.</span></li>
         </ul>
+        <span class="cs-label dim">Built with</span>
         <div class="chips">
           <span class="chip">Java</span><span class="chip">React</span><span class="chip">Static analysis</span><span class="chip">REST API</span>
         </div>
@@ -675,14 +784,22 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
         </div>
       </div>
       <div>
-        <span class="p-tag">Academic · Team lead</span>
-        <h3 class="p-title">FleetSync</h3>
-        <p class="p-desc">A fleet-operations platform built on three Spring Boot microservices, with JWT/RBAC security across booking, user management, and fleet lifecycle — led a team of 3.</p>
+        <span class="p-tag">Engineering background · Team lead</span>
+        <h3 class="p-title">FleetSync — Vehicle Operations Platform</h3>
+        <p class="p-desc">For technical reviewers: a fleet-operations platform handling bookings, users, and vehicle lifecycle — the same booking-and-approval patterns NGO logistics teams run on whiteboards and WhatsApp.</p>
+        <div class="cs">
+          <span class="cs-label">The challenge</span>
+          <p>Managing a vehicle fleet means bookings, approvals, and maintenance schedules that constantly collide. FleetSync put each of those workflows in one system with clear roles and permissions — who can request, who can approve, who can see what.</p>
+        </div>
+        <div class="cs">
+          <span class="cs-label">What it demonstrates</span>
+        </div>
         <ul class="p-points">
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>3-microservice architecture</strong> with clean service boundaries.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>JWT / RBAC</strong> security enforced across all services.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Three-service architecture</strong> with clean boundaries — booking, user management, and fleet lifecycle. Led a team of 3.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span><strong>Role-based access control</strong> enforced across every service — the same discipline approval workflows depend on.</span></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Deployed on <strong>AWS</strong> with MySQL persistence.</span></li>
         </ul>
+        <span class="cs-label dim">Built with</span>
         <div class="chips">
           <span class="chip">Spring Boot</span><span class="chip">Microservices</span><span class="chip">MySQL</span><span class="chip">AWS</span><span class="chip">JWT / RBAC</span>
         </div>
@@ -691,14 +808,145 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
   </div>
 </section>
 
+<!-- HOW I WORK -->
+<section id="process">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-tag">How I Work</span>
+      <h2>From conversation to working system</h2>
+      <p class="section-sub">No proposals full of jargon, no surprise scope. A clear sequence — and you can stop after any step.</p>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal">
+        <div class="t-head">
+          <div><span class="t-role">Discover</span></div>
+          <span class="t-date">Step 01</span>
+        </div>
+        <div class="t-body">We start with a conversation about the process that's causing pain — not about software. If the honest answer is that you don't need custom software, I'll say so.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-head">
+          <div><span class="t-role">Understand workflows</span></div>
+          <span class="t-date">Step 02</span>
+        </div>
+        <div class="t-body">I map how the work actually happens today — who fills what, who approves, where things stall, what the donor needs at the end. This is where most software projects fail, and where working inside an NGO pays off.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-head">
+          <div><span class="t-role">Design</span></div>
+          <span class="t-date">Step 03</span>
+        </div>
+        <div class="t-body">You see screens and workflows before anything is built. We adjust on paper, where changes are cheap — not after launch, where they're expensive.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-head">
+          <div><span class="t-role">Develop</span></div>
+          <span class="t-date">Step 04</span>
+        </div>
+        <div class="t-body">Built in short cycles with working versions you can put in front of real staff early. Feedback from a field officer in week two beats a demo in month four.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-head">
+          <div><span class="t-role">Deploy</span></div>
+          <span class="t-date">Step 05</span>
+        </div>
+        <div class="t-body">Rollout planned around your operational calendar — not during a reporting deadline. Training materials and handover documentation included, in plain language.</div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-head">
+          <div><span class="t-role">Support</span></div>
+          <span class="t-date">Step 06</span>
+        </div>
+        <div class="t-body">Programmes evolve — indicators change, donors change, forms change. I stay available to keep the system matching reality, so it doesn't quietly become next year's abandoned tool.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-tag">Trust</span>
+      <h2>Where my work runs today</h2>
+      <p class="section-sub">Testimonials from the teams using these systems are being collected and will appear here. In the meantime, the systems speak for themselves.</p>
+    </div>
+    <div class="quote-grid">
+      <div class="quote glass reveal">
+        <span class="mark" aria-hidden="true">"</span>
+        <p>In daily use by third-party monitoring teams verifying UN-Habitat programme sites across Pakistan — including areas with no mobile coverage.</p>
+        <span class="who">UN-Habitat TPM field app · in production</span>
+      </div>
+      <div class="quote glass reveal">
+        <span class="mark" aria-hidden="true">"</span>
+        <p>Used by facility custodians and PEC-accredited engineers to run structural and multi-hazard safety assessments of school buildings.</p>
+        <span class="who">CD-CRI SHA Toolkit · live at shatools.vercel.app</span>
+      </div>
+      <div class="quote glass reveal">
+        <span class="mark" aria-hidden="true">"</span>
+        <p>Trusted as the sole engineer for an international NGO's country mission — every system designed, built, and maintained by one accountable person.</p>
+        <span class="who">KnK Japan · Pakistan Mission</span>
+      </div>
+    </div>
+    <!-- Future testimonial template — duplicate inside .quote-grid and fill in:
+    <div class="quote glass reveal">
+      <span class="mark" aria-hidden="true">"</span>
+      <p>Quote text here.</p>
+      <span class="who">Name · Role, Organization</span>
+    </div>
+    -->
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-tag">Experience</span>
+      <h2>Where I've worked</h2>
+      <p class="section-sub">Operational systems built inside the humanitarian sector, plus full-stack delivery in distributed teams — for NGO leaders and recruiters alike.</p>
+    </div>
+    <div class="timeline">
+      <div class="t-item reveal">
+        <div class="t-head">
+          <div><span class="t-role">Database &amp; AI Intern — Sole Engineer</span><br><span class="t-org">KnK Japan · Pakistan Mission (international NGO, full-time)</span></div>
+          <span class="t-date">Jun 2026 — Present</span>
+        </div>
+        <div class="t-body">
+          The only engineer for the country mission — which means sitting with programme, MEAL, procurement, and finance teams daily, and owning every system from first sketch to long-term maintenance.
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Replaced paper-based school safety assessments with the <strong>CD-CRI SHA Toolkit</strong> — a multi-hazard screening platform live at shatools.vercel.app.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Built an <strong>offline-first field app</strong> for UN-Habitat third-party monitoring — offline form packs, supervisor return-and-fix review, GRM/FCRM complaints module, English–Urdu UI.</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Design and manage the mission's <strong>PostgreSQL / MySQL</strong> databases and automate MEAL reporting workflows with Python — cutting manual data handling out of routine reporting.</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-head">
+          <div><span class="t-role">Full Stack Developer Intern</span><br><span class="t-org">CognoRise InfoTech · Remote</span></div>
+          <span class="t-date">Jul — Aug 2024</span>
+        </div>
+        <div class="t-body">
+          Delivered full-stack web features in Agile sprints; documented backend workflows and APIs while collaborating in a distributed, Git-based team.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- SKILLS -->
 <section id="skills">
   <div class="container">
     <div class="reveal">
-      <span class="section-tag">Skills</span>
-      <h2>Tools I work with</h2>
+      <span class="section-tag">Technical Background</span>
+      <h2>For the technical reviewers</h2>
+      <p class="section-sub">The tools behind the outcomes above — for recruiters, IT teams, and anyone doing due diligence before a contract.</p>
     </div>
     <div class="skills-grid">
+      <div class="skill-card glass reveal">
+        <div class="head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 4.9V17L12 22l-9-4.9V7z"/></svg><h3>NGO Systems &amp; Workflows</h3></div>
+        <div class="chips"><span class="chip">ActivityInfo</span><span class="chip">MEAL data</span><span class="chip">Donor reporting</span><span class="chip">GRM / FCRM</span><span class="chip">Offline field collection</span></div>
+      </div>
       <div class="skill-card glass reveal">
         <div class="head"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg><h3>Languages</h3></div>
         <div class="chips"><span class="chip">Java</span><span class="chip">Python</span><span class="chip">JavaScript</span><span class="chip">SQL</span><span class="chip">HTML / CSS</span></div>
@@ -781,13 +1029,13 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
 <section id="contact">
   <div class="container">
     <div class="contact-wrap glass reveal">
-      <span class="section-tag" style="justify-content:center;width:100%">Contact</span>
-      <h2>Let's build something <span class="grad-text">that matters</span></h2>
-      <p>Open to remote contracts with NGOs and development organizations — data systems, field tools, M&amp;E platforms, and full-stack builds.</p>
+      <span class="section-tag" style="justify-content:center;width:100%">Start Here</span>
+      <h2>Tell me about the process your team <span class="grad-text">wishes was easier</span></h2>
+      <p>The report that eats a week every quarter. The approval that lives in someone's inbox. The field data that gets typed in twice. Describe it in a few sentences — I'll reply with an honest read on whether software would help, and what it would take. No pitch, no obligation.</p>
       <div class="contact-ctas">
-        <a class="btn btn-primary" href="mailto:ahsanilyas.sheikh@gmail.com">
+        <a class="btn btn-primary" href="mailto:ahsanilyas.sheikh@gmail.com?subject=Discovery%20conversation%20—%20our%20workflow">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-          ahsanilyas.sheikh@gmail.com
+          Book a discovery conversation
         </a>
         <a class="btn btn-ghost" href="https://www.linkedin.com/in/sheikhahsanilyas" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
@@ -861,7 +1109,7 @@ footer{border-top:1px solid var(--border);padding:28px 0;margin-top:var(--space-
   }
 
   // active nav highlight
-  var sections = ['about','experience','projects','skills','certs','contact'];
+  var sections = ['about','sectors','projects','process','testimonials','experience','skills','certs','contact'];
   var navAnchors = Array.prototype.slice.call(links.querySelectorAll('a[href^="#"]'));
   var spy = new IntersectionObserver(function(entries){
     entries.forEach(function(en){
